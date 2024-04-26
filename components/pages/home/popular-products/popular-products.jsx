@@ -11,6 +11,7 @@ import { IconButton, Tab, Tabs } from '@mui/material';
 // Icons
 import { ArrowLeft, ArrowRight, ArrowRight2, LikeShapes, Sort } from 'iconsax-react';
 
+// Assets
 import product1Image from '@/assets/images/product1.png';
 import product2Image from '@/assets/images/product2.png';
 import product3Image from '@/assets/images/product3.png';
@@ -90,10 +91,10 @@ function PopularProducts() {
                <p className="hidden font-jakartaTextBold text-[#2C2C2C] customMd:block">240 Products</p>
             </div>
 
-            <div className="relative mt-11 max-customMd:hidden">
+            <div className="relative mt-11 px-9 max-customMd:hidden">
                <div
                   style={{ boxShadow: '0px 4px 51px 0px #00000014' }}
-                  className="absolute left-[-22px] top-[181px] z-10 rounded-full max-customMd:hidden"
+                  className="absolute left-0 top-[181px] z-10 rounded-full max-customMd:hidden"
                >
                   <IconButton onClick={navigatePrev} sx={{ backgroundColor: 'white', width: '48px', height: '48px' }}>
                      <ArrowLeft size="20" color="#292D32" />
@@ -101,7 +102,7 @@ function PopularProducts() {
                </div>
                <div
                   style={{ boxShadow: '0px 4px 51px 0px #00000014' }}
-                  className="absolute right-[-22px] top-[181px] z-10 rounded-full max-customMd:hidden"
+                  className="absolute right-0 top-[181px] z-10 rounded-full max-customMd:hidden"
                >
                   <IconButton onClick={navigateNext} sx={{ backgroundColor: 'white', width: '48px', height: '48px' }}>
                      <ArrowRight size="20" color="#292D32" />

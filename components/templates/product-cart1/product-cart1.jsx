@@ -6,11 +6,7 @@ import { BagHappy, Heart } from 'iconsax-react';
 
 function ProductCart1({ image, hasColor }) {
    return (
-      <Link
-         href="/"
-         className="relative mt-5 block rounded-2xl bg-white px-5 py-6 max-customMd:w-[250px]"
-         //  style={{ boxShadow: '0px 14.06px 130.27px -35.61px #0E25491F' }}
-      >
+      <Link href="/" className="relative mt-5 block rounded-2xl bg-white px-5 py-6 max-customMd:w-[250px]">
          <p
             className="absolute left-6 top-0 flex h-7 w-fit rotate-90 items-center justify-center rounded-l-[5px]
           rounded-r-[25px] bg-[#FF2A50] px-3 font-jakartaTextBold text-xs text-white"
