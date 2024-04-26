@@ -14,7 +14,7 @@ function ProductCategories() {
    const [chosenCategory, setChosenCategory] = useState('men');
 
    return (
-      <div className="mb-[100px] px-8 customMd:px-[129px]">
+      <div className="mb-8 px-8 customMd:mb-[73px] customMd:px-[129px]">
          <div className="mx-auto max-w-[1176px]">
             <p className="text-center font-jakartaTextBold text-[18px] customMd:text-2xl">Product categories</p>
             <p className="mx-auto mt-4 max-w-[435px] text-center font-jakartaDisplayRegular text-[13px] leading-4 text-[#00000080] customMd:mt-6 customMd:text-sm">

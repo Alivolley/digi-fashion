@@ -45,6 +45,15 @@ const getDesignTokens = mode => ({
             },
          },
       },
+
+      MuiTab: {
+         styleOverrides: {
+            root: {
+               fontFamily: 'jakartaTextBold',
+               textTransform: 'none',
+            },
+         },
+      },
    },
 });
 
