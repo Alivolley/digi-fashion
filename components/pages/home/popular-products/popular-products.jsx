@@ -42,7 +42,7 @@ function PopularProducts() {
    };
 
    return (
-      <div className="bg-[#FAF2F04D] px-8 pb-[112px] pt-[97px] customMd:px-[129px]">
+      <div className="bg-[#F6F2F399] px-6 pb-[112px] pt-[97px] customMd:px-[129px]">
          <div className="mx-auto max-w-[1176px]">
             <div className="flex items-center justify-between">
                <div className="flex items-center">

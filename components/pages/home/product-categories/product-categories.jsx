@@ -14,10 +14,10 @@ function ProductCategories() {
    const [chosenCategory, setChosenCategory] = useState('men');
 
    return (
-      <div className="mb-8 px-8 customMd:mb-[73px] customMd:px-[129px]">
+      <div className="mb-8 px-6 customMd:mb-[73px] customMd:px-[129px]">
          <div className="mx-auto max-w-[1176px]">
             <p className="text-center font-jakartaTextBold text-[18px] customMd:text-2xl">Product categories</p>
-            <p className="mx-auto mt-4 max-w-[435px] text-center font-jakartaDisplayRegular text-[13px] leading-4 text-[#00000080] customMd:mt-6 customMd:text-sm">
+            <p className="mx-auto mt-4 max-w-[435px] text-center text-[13px] leading-4 text-[#00000080] customMd:mt-6 customMd:text-sm">
                We have a wide variety of digital products, we have categorized them for your better access
             </p>
             <div className="mt-[50px] flex items-center justify-center gap-6 customMd:mt-10 customMd:gap-[50px]">

@@ -28,7 +28,7 @@ function Header() {
    };
 
    return (
-      <header className="px-8 pt-[25px] customMd:px-[129px] customMd:pt-[50px]">
+      <header className="px-6 pt-[25px] customMd:px-[129px] customMd:pt-[50px]">
          <div className="mx-auto flex max-w-[1176px] items-center border-b border-solid border-[#DADADA] pb-5 customMd:pb-6">
             <div className="flex items-center gap-16">
                <Link href="/" className="flex items-center gap-2">
@@ -39,11 +39,7 @@ function Header() {
                </Link>
                <div className="hidden items-center gap-6 customLg:flex">
                   <Link href="/">
-                     <Button
-                        startIcon={<Category2 size="22" />}
-                        color="black"
-                        sx={{ fontFamily: 'jakartaDisplayRegular' }}
-                     >
+                     <Button startIcon={<Category2 size="22" />} color="black">
                         Category
                      </Button>
                   </Link>
@@ -51,38 +47,22 @@ function Header() {
                   <div className="h-5 w-px bg-[#DADADA]" />
                   <div className="flex items-center gap-6 customXl:gap-12">
                      <Link href="/">
-                        <Button
-                           startIcon={<DiscountShape size="22" />}
-                           color="black"
-                           sx={{ fontFamily: 'jakartaDisplayRegular' }}
-                        >
+                        <Button startIcon={<DiscountShape size="22" />} color="black">
                            Hot Deals
                         </Button>
                      </Link>
                      <Link href="/">
-                        <Button
-                           startIcon={<Image src={fireSvg} alt="svg" />}
-                           color="black"
-                           sx={{ fontFamily: 'jakartaDisplayRegular' }}
-                        >
+                        <Button startIcon={<Image src={fireSvg} alt="svg" />} color="black">
                            New Arrivals
                         </Button>
                      </Link>
                      <Link href="/">
-                        <Button
-                           startIcon={<Notepad2 size="22" />}
-                           color="black"
-                           sx={{ fontFamily: 'jakartaDisplayRegular' }}
-                        >
+                        <Button startIcon={<Notepad2 size="22" />} color="black">
                            Blog
                         </Button>
                      </Link>
                      <Link href="/">
-                        <Button
-                           startIcon={<Tag2 size="22" />}
-                           color="black"
-                           sx={{ fontFamily: 'jakartaDisplayRegular' }}
-                        >
+                        <Button startIcon={<Tag2 size="22" />} color="black">
                            Brands
                         </Button>
                      </Link>
@@ -119,7 +99,7 @@ function Header() {
             </div>
          </div>
 
-         <div className="mx-auto flex max-w-[1176px] items-center justify-between pb-8 pt-4 customMd:pb-10 customMd:pt-5">
+         <div className="mx-auto flex max-w-[1176px] items-center justify-between pt-4 customMd:pt-5">
             <form
                onSubmit={searchHandler}
                className="flex h-[58px] max-w-[243px] grow items-center rounded-[44px] bg-[#F3F7FA] px-[14px] customMd:max-w-[528px]"

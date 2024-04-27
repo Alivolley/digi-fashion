@@ -7,7 +7,7 @@ import { ArrowRight2, BagHappy, Heart } from 'iconsax-react';
 // Assets
 import polygonPic from '@/assets/images/polygon.png';
 
-function ProductCart2({ image, hasColor }) {
+function ProductCart2({ image, hasColor, hasDiscount }) {
    return (
       <Link href="/" className="relative block rounded-2xl bg-white px-[7px] py-[13px] customMd:px-5 customMd:py-6">
          <p
@@ -36,8 +36,11 @@ function ProductCart2({ image, hasColor }) {
          <p className="mt-[9px] line-clamp-2 h-[42px] text-[13px] leading-[21px] customMd:mt-3">
             Women wristwatch, City Woman, model EM0896-89Y
          </p>
-         <div className="mt-6 flex items-center justify-between customMd:mt-8">
-            <div href="/" className="flex h-[24px] items-center rounded-[500px] bg-[#FFF3F7] customMd:h-[33px]">
+         <div className="mt-6 flex items-center justify-center customMd:mt-8 customMd:justify-between">
+            <div
+               href="/"
+               className="hidden h-[24px] items-center rounded-[500px] bg-[#FFF3F7] customMd:flex customMd:h-[33px]"
+            >
                <p
                   className="flex h-full items-center justify-center gap-[5.5px] rounded-[500px] bg-customPink pl-[11px]
                    pr-[17px] font-jakartaTextBold text-xs text-white customMd:gap-2 customMd:pl-4 customMd:pr-6 customMd:text-sm"
@@ -47,11 +50,13 @@ function ProductCart2({ image, hasColor }) {
                </p>
                <ArrowRight2 size="14" className="px-[6.5px] customMd:px-[10px]" />
             </div>
-            <div className="flex flex-col gap-[3px] font-jakartaDisplayBold customMd:gap-[6px]">
-               <p className="text-[11px] leading-[11px] text-[#00000080] customMd:text-sm customMd:leading-[14px]">
-                  $649.99
+            <div className="flex flex-col gap-[6px] font-jakartaTextBold max-customMd:items-center">
+               <p className="text-sm leading-[14px] text-[#00000080] max-customMd:h-[14px]">
+                  {hasDiscount && '$649.99'}
                </p>
-               <p className="text-[11px] leading-[11px] customMd:text-sm customMd:leading-[14px]">$499.99</p>
+               <p className="text-base leading-[16px] max-customMd:text-customPink customMd:text-sm customMd:leading-[14px]">
+                  $499.99
+               </p>
             </div>
          </div>
       </Link>

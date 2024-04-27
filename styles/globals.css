@@ -4,15 +4,6 @@
 
 @layer {
    @font-face {
-      font-family: 'jakartaDisplayRegular';
-      src: url('../assets/fonts/PlusJakartaDisplay-Regular.ttf') format('truetype');
-   }
-   @font-face {
-      font-family: 'jakartaDisplayBold';
-      src: url('../assets/fonts/PlusJakartaDisplay-Bold.ttf') format('truetype');
-   }
-
-   @font-face {
       font-family: 'jakartaTextRegular';
       src: url('../assets/fonts/PlusJakartaText-Regular.ttf') format('truetype');
    }
@@ -29,6 +20,9 @@
    @media only screen and (max-width: 900px) {
       * {
          cursor: default !important;
+      }
+      ::-webkit-scrollbar {
+         display: none;
       }
    }
 }

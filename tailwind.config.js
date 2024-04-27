@@ -28,8 +28,6 @@ module.exports = {
          },
 
          fontFamily: {
-            jakartaDisplayRegular: 'jakartaDisplayRegular',
-            jakartaDisplayBold: 'jakartaDisplayBold',
             jakartaTextRegular: 'jakartaTextRegular',
             jakartaTextBold: 'jakartaTextBold',
          },

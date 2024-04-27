@@ -45,7 +45,7 @@ function Footer() {
 
    return (
       <div>
-         <div className="relative px-8 pb-[550px] pt-[53px] customMd:px-[129px] customMd:pb-[248px] customMd:pt-[148px]">
+         <div className="relative px-6 pb-[550px] pt-[53px] customMd:px-[129px] customMd:pb-[248px] customMd:pt-[148px]">
             <div className="relative mx-auto max-w-[1176px]">
                <div className="flex items-center justify-center font-jakartaTextBold text-[18px] customMd:text-2xl">
                   <Tag2 size="24" className="pr-4" />
@@ -146,7 +146,7 @@ function Footer() {
             </div>
          </div>
 
-         <div className="bg-[#FAF6F6] px-8 pb-[32px] pt-[119px] max-customMd:hidden customMd:px-[129px]">
+         <div className="bg-[#FAF6F6] px-6 pb-[32px] pt-[119px] max-customMd:hidden customMd:px-[129px]">
             <div className="mx-auto max-w-[1176px]">
                <div className="flex items-center justify-between border-b border-solid border-[#00000033] pb-10">
                   <div className="flex items-center gap-8 font-jakartaTextBold text-sm text-[#00000080]">

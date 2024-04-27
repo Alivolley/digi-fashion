@@ -35,7 +35,7 @@ function MoreAbout() {
    };
 
    return (
-      <div className="mt-[30] bg-[#F8F2F2] pb-[29px] pl-8 pt-[77px] customSm:pr-8 customMd:mt-20 customMd:px-[129px] customMd:pb-10 customMd:pt-[54px]">
+      <div className="mt-[30] bg-[#F8F2F2] pb-[29px] pl-6 pt-[77px] customSm:pr-8 customMd:mt-20 customMd:px-[129px] customMd:pb-10 customMd:pt-[54px]">
          <div className="mx-auto max-w-[1176px]">
             <p className="text-center font-jakartaTextBold text-[18px] leading-[22px] customMd:text-2xl customMd:leading-[30px]">
                Learn more about the Fashion world
