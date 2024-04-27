@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { ArrowRight2 } from 'iconsax-react';
 
 // Assets
-import bannerPic from '@/assets/images/bannerPic.png';
+import bannerPic1 from '@/assets/images/bannerPic1.png';
+import bannerPic2 from '@/assets/images/bannerPic2.png';
 
 function BannersProducts() {
    return (
@@ -13,7 +14,7 @@ function BannersProducts() {
             <div
                className="relative h-[161px] rounded-3xl max-customMd:w-full customMd:h-[270px] customMd:flex-1"
                style={{
-                  backgroundImage: `url(${bannerPic.src})`,
+                  backgroundImage: `url(${bannerPic1.src})`,
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
@@ -40,7 +41,7 @@ function BannersProducts() {
             <div
                className="relative h-[161px] rounded-3xl max-customMd:w-full customMd:h-[270px] customMd:flex-1"
                style={{
-                  backgroundImage: `url(${bannerPic.src})`,
+                  backgroundImage: `url(${bannerPic2.src})`,
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
