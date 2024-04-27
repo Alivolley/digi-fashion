@@ -118,7 +118,7 @@ function LatestProducts() {
                      ref={swiperRef1}
                      breakpoints={{
                         300: {
-                           slidesPerView: 1,
+                           slidesPerView: 1.3,
                            spaceBetween: '5px',
                         },
                         390: {
@@ -210,7 +210,7 @@ function LatestProducts() {
                      ref={swiperRef2}
                      breakpoints={{
                         300: {
-                           slidesPerView: 1,
+                           slidesPerView: 1.3,
                            spaceBetween: '5px',
                         },
                         390: {
@@ -302,7 +302,7 @@ function LatestProducts() {
                      ref={swiperRef3}
                      breakpoints={{
                         300: {
-                           slidesPerView: 1,
+                           slidesPerView: 1.3,
                            spaceBetween: '5px',
                         },
                         390: {
